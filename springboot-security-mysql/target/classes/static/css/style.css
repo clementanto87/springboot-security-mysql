@@ -1,0 +1,163 @@
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #5E4485;
+	color: #fff;
+	padding: 1% 0;
+	font-size: 1.2em;
+	border: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	/* font-family: 'Lobster', Georgia, Times, serif; */
+	 font-family: 'Dancing Script', Georgia, Times, serif;
+	 font-size: 40px;
+	/* line-height: 100px; */
+}
+
+.navbar-brand {
+	float: left;;
+	min-height: 55px;
+	font-size: 30px;
+	color: red;
+}
+
+.navbar-inverse .navbar-nav .active  a, .navbar-inverse .navbar-nav .active  a:focus,
+	.navbar-inverse .navbar-nav .active  a:hover {
+	color: #fff;
+	background-color: #5E4485;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #D5D5D5;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translate(-50);
+	text-transform: uppercase;
+}
+
+.btn {
+	font-size: 18 px;
+	color: #fff;
+	padding: 12px 22px;
+	background: #1EA0C8;
+	border: 2px solid #fff;
+}
+
+.btn:hover { 
+  background-color: #A6CE39;
+}
+
+@media ( max-width : 600px) {
+	.carousel-caption {
+		display: none;
+	}
+	#icon {
+		max-width: 100px;
+	}
+	h4 {
+		font-size: 1.7em;
+	}
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none;
+}
+
+/*.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}*/
+.polaroid img {
+	margin-top: 10px;
+}
+
+.jumbotron {
+	margin-bottom: 10px;
+}
+
+.polaroid:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+/* body {
+	font-family: font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+} */
+
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+
+/* .container{
+	margin: 0;
+	border: 0;
+} */
+footer {
+	width: 100%;
+	background-color: #5E4485;
+	/*padding: 3%;*/
+	color: #fff;
+}
+
+.carousel {
+	max-width: 100%;
+	max-height: 50%;
+}
+
+.item {
+	max-height: 500px;
+	max-width: 100%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.editor-stage .snow {
+  height:50px;
+  background: #fff;
+}
+.snow{
+  position:fixed;
+  pointer-events:none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: none;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
